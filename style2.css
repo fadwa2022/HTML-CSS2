@@ -1,0 +1,57 @@
+/*
+primary font :lato
+secondry font : roboto condensed
+dark blue-rgb(70,137,244)
+light blue-rgb(186,212,255)
+
+*/
+img{
+    width:400px;
+    height: 200px;
+}
+body{
+    background-color:rgb(147, 185, 248) ;
+}
+#main{
+    display:grid;
+    grid-template-columns: 70% 30%;
+    grid-gap:50px;
+}
+p{
+    font-family: 'loto',sans-serif;
+}
+h3,h1{
+    font-family: 'roboto condensed',sans-serif;
+}
+.image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5%;
+}
+#img{
+    margin: 1%;
+}
+#img:hover
+{    margin: 10%;
+    height: 600px;
+    right: 400px;
+}
+#img1{
+    float: right;
+    margin: 3%;
+    height: 300px;
+}
+nav div{
+    border: 2px solid rgb(236, 122, 160) ;
+    margin: 10px;
+    padding: 1rem;
+}
+nav{
+    background-color: rgb(246, 192, 210);
+}
+@media screen and (max-width:1400px) {
+    *{
+     width: 90%;
+    } 
+ }
